@@ -1,0 +1,70 @@
+*{
+    font-family: 'Times New Roman';
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    background-color: beige;
+    color: white;
+    padding: 10px;
+}
+h1 .titulo {
+    text-decoration: none;
+    color:black;
+}
+
+.navegacion{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:sienna;
+}
+
+.navegacion a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+   font-family:'Courier New';
+   margin-bottom: 5px;
+
+}
+h4{
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+/* FORMULARIO */
+
+.formulario{
+    margin: 100px auto;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.campo{
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.boton{
+    margin-top: 10px;
+    width: 100px;
+    background-color:green;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
